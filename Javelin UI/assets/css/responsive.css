@@ -1,0 +1,283 @@
+/* Extra small devices (portrait phones, less than 320px) */
+@media (min-width: 320px) and (max-width: 1199.99px) {
+    /** Footer style */
+    footer .made-in {
+        text-align: center;
+        padding-right: 15px;
+    }
+    footer .social-media {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    /** 	#### Front page style  #### */
+    body {
+        line-height: 1.2;
+    }
+    .front-content {
+        padding-top: 4rem;
+    }
+    .front-left {
+        text-align: center;
+        margin: 3rem 0;
+    }
+    .front-right {
+        margin-bottom: 3rem;
+    }
+    .front-right .buttons {
+        width: 80%;
+    }
+    button.red-button {
+        padding: 1rem 1.2rem;
+    }
+    .front-right .buttons span {
+        font-size: 1.3em;
+    }
+
+    /*
+    * 	#### Files page style  ####
+    */
+    li.nav-item {
+        margin-left: 0;
+    }
+    .files-result {
+        height: auto ;
+    }
+    .res-mid {
+        border-right: none;
+        border-bottom: 1px dashed #dddddd;
+        padding-bottom: 1.5rem;
+        padding-top: 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+    .res-mid button{
+        padding: 0.8rem 0.6rem;
+        width: 100%;
+    }
+    .res-bot {
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .res-bot span {
+        font-size: 1em;
+        margin-left: 0;
+    }
+    .result-icon div {
+        display: block;
+    }
+    .result-icon {
+        text-align: center;
+    }
+    .result-date {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .result-icon img {
+        margin-bottom: 1rem;
+    }
+    .files-results .more {
+        width: 60%;
+    }
+    /** 	#### Single Files style  #### */
+    .single-file {
+        height: auto;
+    }
+    .thumbnail .item img {
+        height: 35vh;
+    }
+    .file-info {
+        padding-top: 0;
+        margin-top: -0.75rem;
+    }
+    .file-info h4 {
+        font-size: .8em;
+        width: 30%;
+    }
+    .file-info h4:nth-child(2) {
+        text-align: center;
+    }
+    .file-info h4:last-child {
+        text-align: right;
+    }
+    .single-file-content address {
+        font-size: 1.1em;
+        line-height: 1.5;
+        margin: 2rem 0 2em 0;
+    }
+    .file-price button {
+        font-size: 0.8em;
+    }
+    .detail-line img {
+        width: 25px;
+    }
+    .detail-line div {
+        font-size: 0.8em;
+        padding: 1rem 10px;
+    }
+    .modal-body img {
+        width: 30px;
+    }
+    .modal-body h6 {
+        bottom: 6px;
+        left: 10px;
+    }
+}
+
+/* /Small devices (landscape phones, 412px and up) */
+@media (min-width: 412px) and (max-width: 1199.99px) {
+    /**     #### Front page style  #### */
+    .front-left h1 {
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+    .front-left h3 {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+    .front-right .buttons span {
+        font-size: 1.1em;
+    }
+    button.red-button {
+        padding: 0.7rem 1.1rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1199.99px) {
+    /**     #### Front page style  #### */
+    .front-right .buttons {
+        width: 60%;
+    }
+    .front-left {
+        margin: 6rem 0;
+    }
+
+    /** 	#### Single Files style  #### */
+    .thumbnail .item img {
+        height: 50vh;
+    }
+}
+
+/* Large devices (small desktops, 995px and up) */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    /** Footer style */
+    footer .made-in {
+        text-align: right;
+        padding-right: 0;
+    }
+    footer .social-media {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    /**     #### Front page style  #### */
+    .front-content {
+        padding-top: 14rem;
+    }
+    .front-right .buttons {
+        width: 70%;
+    }
+    .front-left {
+        text-align: left;
+        margin-top: 1rem;
+        padding-left: 4rem;
+    }
+
+    /*
+    * 	#### Files page style  ####
+    */
+    .res-mid button {
+        width: 93%;
+    }
+    .res-mid {
+        border-right: 1px dashed #dddddd;;
+        border-bottom: none;
+        padding-bottom: 0;
+        padding-top: 0.5rem;
+        margin-bottom: 0;
+    }
+    .files-result address {
+        height: 8.5rem;
+    }
+    .res-bot {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: -15px;
+    }
+    .result-icon {
+        text-align: left;
+    }
+    .res-bot span {
+        margin-left: 2rem;
+    }
+    .result-icon div {
+        display: inline;
+    }
+    .res-bot span {
+        font-size: 1.1em;
+    }
+    .result-icon span, .result-date span {
+        top: -25px;
+    }
+    .result-date {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .result-date span {
+        margin-left: 4rem;
+        top: -30px;
+    }
+    .result-date {
+        bottom: -25px;
+    }
+    .files-results .more {
+        width: 25%;
+    }
+    /** 	#### Single Files style  #### */
+    .thumbnail .item img {
+        height: 75vh;
+    }
+    .file-info {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .single-file .owl-carousel {
+        margin-bottom: -1rem;
+    }
+    .single-file {
+        padding-top: 1.5rem;
+    }
+}
+
+/* x-Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* Extra x-Large devices (4k desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    /**     #### Front page style  #### */
+    .front-left {
+        padding-left: 9rem;
+    }
+
+    /*
+    * 	#### Files page style  ####
+    */
+    .files-result {
+        height: auto;
+        max-height: 20rem;
+    }
+    .files-result address {
+        height: 9rem;
+    }
+    .result-date {
+        bottom: -25px;
+    }
+}
